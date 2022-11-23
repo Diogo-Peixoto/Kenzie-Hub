@@ -27,8 +27,8 @@ function Modal() {
 
 
   return (
-    <ModalStyle onSubmit={handleSubmit(handleCreatTecForm)}>
-      <form>
+    <ModalStyle>
+      <form onSubmit={handleSubmit(handleCreatTecForm)}>
         <section className="header-form">
           <p>Cadastrar Tecnologia</p>
           <AiOutlineClose onClick={toggleModal}  />

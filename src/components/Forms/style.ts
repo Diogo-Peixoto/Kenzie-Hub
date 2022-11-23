@@ -41,6 +41,7 @@ export const FormAllPage = styled.div`
       color: var(--grey-0);
       display: flex;
       flex-direction: column;
+      padding-bottom: 1rem;
 
       display: flex;
       align-items: center;

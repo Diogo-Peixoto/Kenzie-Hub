@@ -48,6 +48,7 @@ function UserProvider({ children }: IUserProvider) {
   const [ user, setUser ] = useState<IUser>({} as IUser);
   const [ loading, setLoaging ] = useState(true)
 
+
   const navigate = useNavigate();
 
   async function handleLoginForm(data: IDataLogin) {

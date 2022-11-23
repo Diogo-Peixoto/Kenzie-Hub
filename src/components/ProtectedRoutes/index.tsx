@@ -9,7 +9,7 @@ function ProtectedRoutes(){
         return null
     }
 
-    return user ?  <Outlet /> : <Navigate to='/' replace />
+    return user.id ?  <Outlet /> : <Navigate to='/' replace />
 }
 
 export default ProtectedRoutes;
